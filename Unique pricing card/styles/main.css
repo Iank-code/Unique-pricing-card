@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(247, 120, 97);
+}
+.lite , .advanced , .ultimate{
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}
+.container{
+    display: grid;
+    grid-template-columns:  repeat(3 , 1fr);
+    gap: 5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.lite , .ultimate{
+    height: 31rem;
+    margin-top: 50px;
+}
+.advanced{
+    height: 35rem;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted grey;
+    font-size: 18px;
+    color: rgb(247, 120, 97);
+}
+p{
+    font-size: 15px;
+    margin-left: 65px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+.pp{
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50rem;
+}
+.circle{
+    margin: 100px 60px;
+
+}
+.circle span{
+    background-color: rgb(247, 120, 97);
+    font-size: 60px;
+    color: white;
+    font-weight: lighter;
+    width: 100px;
+    height: 100px;
+    padding: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+main.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnlarge{
+    margin-top: 600px;
+}
+.pp .btnsmall , .btnlarge{
+    background-color: rgb(247, 120, 97);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    outline: none;
+    cursor: pointer;
+}
+.btnsmall:hover , .btnlarge:hover{
+    background-color: white;
+    color: rgb(247, 120, 97);
+    font-weight: bolder;
+}
